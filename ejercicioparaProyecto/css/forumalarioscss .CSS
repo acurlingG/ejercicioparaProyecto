@@ -1,0 +1,74 @@
+/* estilos para formularios (mismo esquema que el Menu Principal) */
+body {
+  background-color: #bfefff; /* mismo celeste claro que el menu */
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.form-container {
+  min-height: calc(100vh - 60px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 20px;
+  padding-bottom: 80px; /* espacio para el footer fijo */
+  box-sizing: border-box;
+  position: relative; /* para posicionar el boton home */
+}
+.home-button {
+  position: absolute;
+  top: 18px;
+  right: 18px;
+  background-color: #007bff; /* azul */
+  color: #ffffff;
+  text-decoration: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+.custom-gridview {
+  margin: 30px auto 0 auto; /* centra el grid */
+  width: 90%;
+  max-width: 1000px;
+  border-collapse: collapse;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+.custom-gridview th {
+  background-color: #333333; /* encabezado gris oscuro */
+  color: #ffffff; /* letras blancas */
+  padding: 10px;
+  text-align: center;
+}
+.custom-gridview td {
+  background-color: #ffd700; /* amarillo */
+  color: #ffffff; /* letras blancas en las filas */
+  padding: 10px;
+  text-align: center;
+  border-top: 1px solid rgba(0,0,0,0.08);
+}
+.action-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin: 18px 0 40px 0;
+}
+.action-button {
+  background-color: #28a745; /* verde */
+  color: #ffffff;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.site-footer {
+  background-color: #00274d; /* azul oscuro (mismo footer que menu) */
+  color: #ffffff;
+  text-align: center;
+  padding: 12px 20px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
