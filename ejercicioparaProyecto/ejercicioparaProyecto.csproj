@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="bodega.aspx" />
     <Content Include="combo1.jpg" />
+    <Content Include="css\menucss.css" />
     <Content Include="Imagenes\combo1.jpg" />
     <Content Include="Imagenes\homeicon.jpg" />
     <Content Include="MENU.aspx" />
